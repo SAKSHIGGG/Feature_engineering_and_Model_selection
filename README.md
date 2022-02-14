@@ -2,15 +2,15 @@
 The actual concrete compressive strength (MPa) for a given mixture under a specific age (days) was determined from laboratory. The data has 8 quantitative input variables, 1 quantitaive output variable and 1030 instances(observations).  
 
 ## Context
-Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients. These ingredients include cement, blast furnace slag, fly ash, water, superplasticizer, coarse aggregate and fine aggregate.
+The concrete compressive strength is a highly nonlinear function of age and ingredients. These ingredients include cement, blast furnace slag, fly ash, water, superplasticizer, coarse aggregate and fine aggregate.
 
 ## Objective
 Modeling of strength of high performance concrete using Machine Learning
 
 ## Steps and tasks
 1. Exploratory data quality report  
-   a. Univariate analysis - data types and description of the independent attributes, analysis of the body of distributions / tails  
-        missing values, outliers   
+   a. Univariate analysis - data types and description of the independent attributes, analysis of the body of distributions / tails,  
+        missing values, outliers.   
    b. Bi-variate analysis between the predictor variables and between the predictor variables & target column. Presence of leverage points.  
         Visualize the analysis using boxplots and pair plots, histogram or density curves.   
    c. Pick one strategy to address the presence outliers and missing values and perform necessary imputation.    
